@@ -18,26 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <ul className="flex m-4 justify-end">
-            <li className="mr-6">
-              <Link href="/">
-                <p className="text-red-700 hover:text-red-900" >Home</p>
-              </Link>
-            </li>
-            <li className="mr-6">
-              <Link href="/First-Page">
-                <p className="text-red-700 hover:text-red-900" >First Page</p>
-              </Link>
-            </li>
-            <li className="mr-6">
-              <Link href="/">
-                <p className="text-red-700 hover:text-red-900" >About</p>
-              </Link>
-            </li>
-
-          </ul>
-        </nav>
         {children}
       </body>
     </html>

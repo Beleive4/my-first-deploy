@@ -46,58 +46,19 @@ async function getRecipes(): Promise<Recipe[]> {
 }
 
 export default async function Home() {
-  const recipes = await getRecipes()
+  // const recipes = await getRecipes()
 
   return (
-    <main >
-      <div className="grid grid-cols-3 gap-8 p-4">
-
-
-        {/* <AlertDialog>
-          <AlertDialogTrigger>Open</AlertDialogTrigger>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-              <AlertDialogDescription>
-                This action cannot be undone. This will permanently delete your account
-                and remove your data from our servers.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction>Continue</AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog> */}
-
-        {recipes.map(recipe => (
-          <Card key={recipe.id} className="flex flex-col justify-between">
-            <CardHeader
-            // className="flex-row gap-4 items-center"
-            >
-              <Avatar>
-                <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                <AvatarFallback>{recipe.title.slice(0, 2)}</AvatarFallback>
-              </Avatar>
-              <div>
-                <CardTitle>
-                  {recipe.title}
-                </CardTitle>
-                <CardDescription className="mt-2">
-                  {recipe.time} mins to cook
-                </CardDescription>
-              </div>
-            </CardHeader>
-            <CardContent>
-              <p>{recipe.description}</p>
-            </CardContent>
-            <CardFooter className="flex justify-between">
-              <Button >View Recipe</Button>
-              {recipe.vegan && <Badge variant="secondary">Vegan!</Badge>}
-            </CardFooter>
-          </Card>
-
-        ))}
+    <main className="h-full flex justify-center items-center">
+      <div >
+        <Image
+          className="rounded-sm"
+          src="https://firebasestorage.googleapis.com/v0/b/mern-auth-41ee1.appspot.com/o/Shiva.jpeg?alt=media&token=594447a7-96a8-4489-88ee-a801613f6e88"
+          width={500}
+          height={500}
+          alt="Picture of the author"
+        />
+        <p className="text-4xl text-center mt-4">ಓಂ ನಮಃ ಶಿವಾಯ</p>
       </div>
     </main>
   );
