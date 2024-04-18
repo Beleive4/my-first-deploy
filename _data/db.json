@@ -1,0 +1,100 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Veggie Carbonara",
+      "image": "veggie_carbonara.jpg",
+      "time": 25,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "vegan": false
+    },
+    {
+      "id": "2",
+      "title": "Spaghetti Aglio e Olio",
+      "image": "spaghetti_aglio_e_olio.jpg",
+      "time": 20,
+      "description": "Spaghetti Aglio e Olio is a traditional Italian pasta dish hailing from Naples. ",
+      "vegan": true
+    },
+    {
+      "id": "3",
+      "title": "Mushroom Risotto",
+      "image": "mushroom_risotto.jpg",
+      "time": 40,
+      "description": "Mushroom Risotto is a classic Italian dish made with Arborio rice, mushrooms, onions, garlic, white wine, and Parmesan cheese. ",
+      "vegan": false
+    },
+    {
+      "id": "4",
+      "title": "Caprese Salad",
+      "image": "caprese_salad.jpg",
+      "time": 10,
+      "description": "Caprese Salad is a simple Italian salad made with fresh tomatoes, mozzarella cheese, basil leaves, olive oil, and balsamic glaze. ",
+      "vegan": true
+    },
+    {
+      "id": "5",
+      "title": "Vegetable Stir Fry",
+      "image": "vegetable_stir_fry.jpg",
+      "time": 30,
+      "description": "Vegetable Stir Fry is a quick and easy dish made with a variety of colorful vegetables stir-fried in a flavorful sauce.",
+      "vegan": true
+    },
+    {
+      "id": "6",
+      "title": "Quinoa Salad",
+      "image": "quinoa_salad.jpg",
+      "time": 15,
+      "description": "Quinoa Salad is a nutritious and delicious salad made with cooked quinoa, fresh vegetables, herbs, and a zesty dressing. ",
+      "vegan": true
+    },
+    {
+      "id": "7",
+      "title": "Chickpea Curry",
+      "image": "chickpea_curry.jpg",
+      "time": 35,
+      "description": "Chickpea Curry is a flavorful and hearty dish made with chickpeas, tomatoes, onions, garlic, ginger, and a blend of spices.",
+      "vegan": true
+    },
+    {
+      "id": "8",
+      "title": "Vegetable Lasagna",
+      "image": "vegetable_lasagna.jpg",
+      "time": 60,
+      "description": "Vegetable Lasagna is a delicious and comforting dish made with layers of lasagna noodles, marinara sauce, vegetables, and cheese.",
+      "vegan": false
+    },
+    {
+      "id": "9",
+      "title": "Roasted Vegetable Pasta",
+      "image": "roasted_vegetable_pasta.jpg",
+      "time": 40,
+      "description": "Roasted Vegetable Pasta is a flavorful and satisfying dish made with roasted vegetables, pasta, garlic, olive oil, and herbs. ",
+      "vegan": true
+    },
+    {
+      "id": "10",
+      "title": "Greek Salad",
+      "image": "greek_salad.jpg",
+      "time": 15,
+      "description": "Greek Salad is a refreshing and flavorful salad made with fresh cucumbers, tomatoes, red onions, bell peppers, olives, feta cheese, and a simple vinaigrette dressing. ",
+      "vegan": false
+    },
+    {
+      "id": "11",
+      "title": "Greek Salad",
+      "image": "greek_salad.jpg",
+      "time": 15,
+      "description": "Greek Salad is a refreshing and flavorful salad made with fresh cucumbers, tomatoes, red onions, bell peppers, olives, feta cheese, and a simple vinaigrette dressing. ",
+      "vegan": false
+    },
+    {
+      "id": "12",
+      "title": "Greek Salad",
+      "image": "greek_salad.jpg",
+      "time": 15,
+      "description": "Greek Salad is a refreshing and flavorful salad made with fresh cucumbers, tomatoes, red onions, bell peppers, olives, feta cheese, and a simple vinaigrette dressing. ",
+      "vegan": false
+    }
+  ]
+}
