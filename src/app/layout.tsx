@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.classNameName}>
+      <body className={inter.className}>
         <nav>
           <ul className="flex m-4 justify-end">
             <li className="mr-6">
