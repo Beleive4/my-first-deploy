@@ -48,11 +48,11 @@ export default async function Home() {
   // const recipes = await getRecipes()
 
   return (
-    <main>
+    <main className="h-full flex justify-center border-4 items-center">
       {/* <div className="grid grid-cols-3 gap-8"> */}
-      <div className="flex items-center justify-center h-full">
+      <div >
 
-        <p>ಓಂ ನಮಃ ಶಿವಾಯ</p>
+        <p className="text-4xl">ಓಂ ನಮಃ ಶಿವಾಯ</p>
 
         {/* <AlertDialog>
           <AlertDialogTrigger>Open</AlertDialogTrigger>

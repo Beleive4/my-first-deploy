@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 
-
+html,
+body,
+main:root {
+  height: 100vh;
+  background-color: #F1EEDC;
+}
 
 @layer base {
   :root {
