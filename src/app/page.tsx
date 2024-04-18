@@ -21,6 +21,7 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 import { useState } from "react"
+import Image from "../../node_modules/next/image"
 
 
 interface Recipe {
@@ -51,8 +52,14 @@ export default async function Home() {
     <main className="h-full flex justify-center border-4 items-center">
       {/* <div className="grid grid-cols-3 gap-8"> */}
       <div >
-
-        <p className="text-4xl">ಓಂ ನಮಃ ಶಿವಾಯ</p>
+        <Image
+          className="rounded-sm"
+          src="https://firebasestorage.googleapis.com/v0/b/mern-auth-41ee1.appspot.com/o/Shiva.jpeg?alt=media&token=594447a7-96a8-4489-88ee-a801613f6e88"
+          width={500}
+          height={500}
+          alt="Picture of the author"
+        />
+        <p className="text-4xl text-center mt-4">ಓಂ ನಮಃ ಶಿವಾಯ</p>
 
         {/* <AlertDialog>
           <AlertDialogTrigger>Open</AlertDialogTrigger>
